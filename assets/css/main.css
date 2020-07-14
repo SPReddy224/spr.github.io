@@ -29,10 +29,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-b
-{
-	color:black;
-}
+	
 
 body {
 	line-height: 1;
@@ -126,7 +123,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: rgb(166, 20, 34);
 		font-weight: 700;
 	}
 
@@ -136,10 +133,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2.25em 0;
+		text-align:justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color:black;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
